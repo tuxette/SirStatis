@@ -1,0 +1,20 @@
+* nettoyer le code (espaces, indentations, coupures)
+* sir est la méthode par défaut
+* les paramètres obligatoires sont avant les paramètres facultatifs
+* pas de valeur par défaut pour y et H
+* on ne teste pas si un booléen est vrai
+* scale pour cosinus
+* le preprocessing de classic et dual est revu
+* object oriented functions doivent être écrites comme la fonction mère !
+* statis et dual sont identiques
+* modifier les noms pour _ au lieu des condExp pour les variables
+* scalingSIR est inutile
+* ajout de scale dans cond_exp
+* inutile d'avoir deux objets si ils sont constitués de la même manière
+* ajouter une liste de paramètres à l'objet de sortie
+* on ne met pas ERROR dans le texte de stop car il s'en charge lui même
+* programmation similaire de statis, dual et sir parce que mêmes méthodes après interstructure : il faut juste sortir le même objet de l'interstructure !
+* les positions compromis des individus n'ont pas de sens en dual statis (mais je les ai conservés dans notre cas particulier), les positions compromis des variables n'ont pas de sens en statis... (remplacées par NULL). Je pense que les positions des individus par pas de temps n'existent pas en dual (et donc en sir) : je les ai remplacés par NULL
+* quand tu vérifies des égalités entre une variable et une cible, il ne faut pas la vérifier à 10^(-2) car la précision machine est à 10^(-15) environ...
+* j'ai repris statis_result : ce fichier ne doit contenir que les tests
+

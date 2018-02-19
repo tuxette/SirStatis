@@ -1,0 +1,19 @@
+Package: SirStatis
+Type: Package
+Title: STATIS, dual STATIS and SIR-STATIS for cubic data
+Version: 0.1
+Date: 2016-01-07
+Authors@R: c(
+  person("Nathalie", "Villa-Vialaneix", , "nathalie@nathalievilla.org", c("aut")),
+  person("Valerie", "Sautron", , "valerie.sautron@toulouse.inra.fr", c("aut", "cre", "cph")))
+Maintainer: Valerie Sautron <valerie.sautron@toulouse.inra.fr>
+Description: perform STATIS-like analyses of cubic data. The package is well
+    suited to explore time-course datasets, eventually in relation with a target
+    numeric variable (SIR approach).
+Imports:
+    ggplot2,
+    ggrepel,
+    expm,
+    MASS
+License: GPL (>= 2)
+RoxygenNote: 5.0.1
